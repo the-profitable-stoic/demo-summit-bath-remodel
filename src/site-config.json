@@ -1,0 +1,496 @@
+{
+  "business": {
+    "name": "Summit Bath Remodel",
+    "phone": "555-bat-r91",
+    "category": "bath-remodel",
+    "city": "Boston",
+    "state": "MA"
+  },
+  "design": {
+    "preset": {
+      "id": "bath-remodel-mountain-bold",
+      "categoryGroup": "bath-remodel",
+      "name": "Mountain Bold",
+      "recipeFile": "bath-remodel/mountain-bold.astro",
+      "colors": {
+        "primary": "#164E63",
+        "primaryDark": "#0f3745",
+        "primaryLight": "#c5d3d8",
+        "secondary": "#06B6D4",
+        "accent": "#67E8F9",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#164E63",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "bath-remodel/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Boston Bathroom",
+      "heroSubline": "Transform your historic home with a bath remodel that honors its character. Serving Cambridge, Newton, Brookline, and Quincy with craftsmanship built for New England winters.",
+      "aboutTitle": "Rooted in Boston, Built for You",
+      "aboutText": [
+        "Founded in 2012, Summit Bath Remodel began with a simple mission: to bring thoughtful design and durable craftsmanship to Boston's distinctive homes. Our team grew up understanding the quirks of triple-deckers and brownstones—and how to remodel them right.",
+        "We approach every project with architectural sensitivity, selecting materials that withstand coastal humidity and freeze-thaw cycles. From Back Bay to Jamaica Plain, we preserve what makes your home special while modernizing for daily life.",
+        "When we're not installing heated tile floors in South End brownstones, we're volunteering with Boston's historic preservation society or sponsoring little league teams in Dorchester."
+      ],
+      "valueProps": [
+        {
+          "title": "Historic Home Specialists",
+          "description": "We navigate the unique challenges of Boston's aging plumbing and uneven floors—solutions you won't find with generic contractors."
+        },
+        {
+          "title": "Materials That Last",
+          "description": "Our tile selections resist salt air corrosion, and we install shower pans that prevent leaks in 100-year-old buildings."
+        },
+        {
+          "title": "Permit Pros",
+          "description": "We handle all Boston ISD permits and historic district approvals, so you don't have to decipher the zoning code."
+        },
+        {
+          "title": "Local Supply Chain",
+          "description": "90% of our materials come from Massachusetts vendors, reducing delays and supporting regional businesses."
+        }
+      ],
+      "ctaHeadline": "Ready for Your Forever Bathroom?",
+      "ctaSubline": "Schedule a consultation to discuss designs that complement your home's architecture."
+    },
+    "services": [
+      {
+        "slug": "bathroom-renovation",
+        "name": "Full Bathroom Renovation",
+        "shortDescription": "Complete transformations for Boston's historic homes—from structural updates to final finishes.",
+        "description": "In a city where many bathrooms were originally afterthoughts in converted closets, we specialize in reconfiguring awkward layouts into functional retreats. For Back Bay brownstones, we reinforce floors to support cast iron tubs and source hex tile that matches original details. In Quincy's Capes, we maximize small footprints with custom vanities that tuck under sloped ceilings.\n\nEvery renovation begins with moisture testing—critical in our humid summers—and includes mold-resistant cement board behind showers. We coordinate with your building's plumbing quirks, whether updating galvanized pipes in Jamaica Plain or navigating radiator placements in Beacon Hill.",
+        "process": [
+          "Step 1: Historic assessment and moisture testing",
+          "Step 2: Layout redesign with architectural constraints",
+          "Step 3: Demolition with dust containment (essential for occupied homes)",
+          "Step 4: Installation with period-appropriate materials"
+        ],
+        "benefits": [
+          "Preserves original architectural character",
+          "Solutions for uneven floors and plaster walls",
+          "Materials rated for coastal humidity",
+          "Full project management including permits"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle uneven floors in old homes?",
+            "answer": "We use laser leveling and custom shimming techniques, often installing a mortar bed under tile that can be adjusted to the home's natural slope."
+          },
+          {
+            "question": "Can you match my historic tile?",
+            "answer": "Our local suppliers carry reproduction patterns from the 1920s-50s, and we've successfully sourced original salvage tile from Boston-area architectural reclaimers."
+          }
+        ]
+      },
+      {
+        "slug": "walk-in-shower-conversion",
+        "name": "Walk-In Shower Conversion",
+        "shortDescription": "Safe, accessible showers designed for Boston's narrow bathrooms.",
+        "description": "Converting cramped tubs to walk-in showers requires particular expertise in older homes where plumbing stacks can't be moved. For Newton's Colonials, we design curbless showers with hidden linear drains that maintain the home's clean lines. In triple-deckers, we reinforce walls to support glass enclosures without compromising original lathe and plaster.\n\nWe specify Boston-approved waterproofing systems—critical where ice dams cause roof leaks—and install radiant heat mats beneath tile to combat cold floors during Nor'easters. For waterfront condos, we use marine-grade stainless steel fixtures that resist salt air corrosion.",
+        "process": [
+          "Step 1: Structural assessment of existing alcove",
+          "Step 2: Drainage slope planning around fixed plumbing",
+          "Step 3: Waterproof membrane installation with flood testing",
+          "Step 4: Custom glass enclosure fabrication"
+        ],
+        "benefits": [
+          "Eliminates dangerous tub steps",
+          "Space-saving designs for small footprints",
+          "Heated floors optional",
+          "Lifetime warranty on waterproofing"
+        ],
+        "faq": [
+          {
+            "question": "Will a walk-in shower decrease my home's value?",
+            "answer": "In Boston's competitive market, we've found accessible showers actually increase appeal for empty-nesters and young families alike—we keep the original tub when possible."
+          }
+        ]
+      },
+      {
+        "slug": "period-appropriate-tile",
+        "name": "Period-Appropriate Tile Design",
+        "shortDescription": "Authentic tile selections that honor your home's era.",
+        "description": "From Victorian encaustic patterns in Cambridge to mid-century pastels in Quincy's post-war homes, we source tile that tells your home's story. For Brookline's 1930s apartments, we replicate the small-format subway tile found in original bathrooms, using modern thinset techniques to prevent cracking in settling buildings.\n\nWe work with local artisans to recreate discontinued patterns and can match existing tile for seamless repairs in historic districts. Every installation includes extra tiles—essential in Boston where freeze-thaw cycles may cause future cracks.",
+        "process": [
+          "Step 1: Architectural era consultation",
+          "Step 2: Material sourcing from local vendors",
+          "Step 3: Layout planning for visual continuity",
+          "Step 4: Precision installation with movement joints"
+        ],
+        "benefits": [
+          "Preserves historic integrity",
+          "Supports Massachusetts artisans",
+          "Extra tiles archived for future repairs",
+          "Meets historic district guidelines"
+        ],
+        "faq": [
+          {
+            "question": "Can you recreate my bathroom's original mosaic?",
+            "answer": "We've partnered with a Somerville studio that specializes in hand-cutting individual mosaic pieces to match archival designs from Boston's golden age."
+          }
+        ]
+      },
+      {
+        "slug": "radiant-floor-heating",
+        "name": "Radiant Floor Heating",
+        "shortDescription": "Warmth underfoot for chilly New England mornings.",
+        "description": "Boston's drafty winters make radiant heat a game-changer for bathroom comfort. We install ultra-thin electric mats beneath tile—ideal where ceiling height is limited in triple-deckers. Systems are zoned separately from your home's heating, allowing you to warm just the bathroom during shoulder seasons.\n\nFor waterfront properties prone to nor'easters, we include backup battery packs to maintain heat during outages. All installations are permitted and inspected to meet Massachusetts' strict electrical codes.",
+        "process": [
+          "Step 1: Subfloor preparation and insulation",
+          "Step 2: Mat layout planning for even heat distribution",
+          "Step 3: Dedicated circuit installation",
+          "Step 4: Smart thermostat programming"
+        ],
+        "benefits": [
+          "Eliminates cold tile shock",
+          "Reduces humidity after showers",
+          "30% more efficient than forced air",
+          "10-year warranty on heating elements"
+        ],
+        "faq": [
+          {
+            "question": "How does this affect my historic floors?",
+            "answer": "Our 1/8\" thick systems add minimal height—we often incorporate them during regular tile replacement without disturbing original subfloors."
+          }
+        ]
+      },
+      {
+        "slug": "brownstone-bathroom",
+        "name": "Brownstone Bathroom Restoration",
+        "shortDescription": "Sensitive updates for Back Bay and South End landmarks.",
+        "description": "Brownstone bathrooms present unique challenges: irregular wall dimensions, original plumbing chase locations, and strict historic commission requirements. We've mastered techniques like recessing medicine cabinets into 18\" thick masonry walls and designing vanities that follow bowed plaster lines.\n\nOur restoration work includes repairing original clawfoot tubs with Boston-approved epoxy coatings and recreating missing millwork details. We maintain relationships with Back Bay's architectural review boards to streamline the approval process for your project.",
+        "process": [
+          "Step 1: Historic materials assessment",
+          "Step 2: Millwork documentation for approvals",
+          "Step 3: Custom fixture fabrication",
+          "Step 4: Non-destructive installation techniques"
+        ],
+        "benefits": [
+          "Preserves original architectural features",
+          "Navigates historic district regulations",
+          "Salvage and restore original fixtures",
+          "Discreet modern conveniences"
+        ],
+        "faq": [
+          {
+            "question": "Can you add a shower to my clawfoot tub?",
+            "answer": "We install period-appropriate chrome shower rings with discreet wall-mounted valves that meet historic guidelines while providing modern functionality."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eleanor W.",
+        "rating": 5,
+        "service": "Brownstone Bathroom Restoration",
+        "text": "Summit transformed our 1890s South End bathroom without losing any original character. They found matching marble for the damaged wainscoting and designed a custom vanity that fits our curved wall perfectly. The radiant heat makes winter mornings bearable!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus T.",
+        "text": "Our Newton Colonial had a tiny 1950s bathroom stuck in time. Summit's team reconfigured the layout to include a spacious walk-in shower without moving any plumbing stacks. The penny tile they sourced looks like it's always been there.",
+        "rating": 5,
+        "service": "Walk-In Shower Conversion",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Priya K.",
+        "rating": 5,
+        "service": "Period-Appropriate Tile Design",
+        "text": "Finding someone who understood our Cambridge Victorian's aesthetic was crucial. They reproduced our damaged border tile by working with a local ceramicist and installed it with attention to historic detail. Five years later, not a single crack despite Boston's temperature swings.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Connor B.",
+        "rating": 5,
+        "service": "Full Bathroom Renovation",
+        "text": "As a contractor myself, I'm picky about who works on my Quincy Cape. Summit handled our sloping floors and outdated plumbing with solutions I hadn't even considered. Their permit expediter got our variance approved in record time.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Radiant Floor Heating",
+        "text": "Best investment for our Brookline condo—the heated floors make our small bathroom feel luxurious during snowstorms. The team installed everything without disturbing our downstairs neighbors, which was our biggest concern.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Full Bathroom Renovation",
+        "text": "Summit navigated the nightmare of our Back Bay building's plumbing rules to give us a functional bathroom that looks straight out of 1925. The custom brass fixtures are museum-quality but actually get used daily by our three kids.",
+        "date": "2024-06-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boston Bathroom Remodeling | Historic Home Specialists",
+        "description": "Cambridge to Quincy bathroom renovations that honor your home's character while adding modern functionality. Local experts since 2012."
+      },
+      "about": {
+        "title": "About Summit Bath Remodel | Boston's Bathroom Experts",
+        "description": "Meet the team preserving Boston's architectural heritage through thoughtful bathroom renovations in Back Bay, South End, and beyond."
+      },
+      "services": {
+        "title": "Boston Bathroom Services | Period-Appropriate Remodels",
+        "description": "From brownstone restorations to accessible conversions, we specialize in Boston's unique bathroom challenges."
+      },
+      "contact": {
+        "title": "Contact Summit Bath Remodel | Boston Bathroom Pros",
+        "description": "Schedule your consultation with Greater Boston's most trusted bathroom renovation team. Serving Cambridge, Newton, Brookline, Quincy."
+      },
+      "reviews": {
+        "title": "Summit Bath Remodel Reviews | Boston Homeowners",
+        "description": "See why Boston homeowners trust Summit for historic-sensitive bathroom renovations across Suffolk County."
+      },
+      "service-areas": {
+        "title": "Boston-Area Bathroom Remodeling | Local Service Areas",
+        "description": "Expert bathroom renovations in Cambridge, Newton, Brookline, Quincy and throughout Greater Boston's historic neighborhoods."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Cambridge",
+        "slug": "cambridge-ma",
+        "state": "MA",
+        "content": "Summit Bath Remodel proudly serves homeowners in Cambridge, MA, where historic Victorian homes near Harvard University require specialized care. Our team understands the unique challenges of remodeling older bathrooms in these elegant properties, from preserving original charm to upgrading plumbing for modern efficiency. With cold, snowy winters and Nor'easters common in this area, we prioritize durable, weather-resistant materials that withstand harsh New England conditions while enhancing your home's value.",
+        "localContext": "Cambridge features a mix of academic culture and historic architecture, with many homes dating back to the 1800s.",
+        "nearbyAreas": [
+          "Somerville",
+          "Arlington",
+          "Watertown"
+        ]
+      },
+      {
+        "city": "Newton",
+        "slug": "newton-ma",
+        "state": "MA",
+        "content": "In Newton, MA, Summit Bath Remodel specializes in transforming bathrooms in upscale Colonial and Tudor homes. We recognize that Newton residents value both historical integrity and contemporary luxury, so our designs blend classic craftsmanship with modern amenities. The area's cold, snowy winters demand materials that resist moisture damage and temperature fluctuations—features we incorporate into every project to ensure long-lasting beauty and functionality.",
+        "localContext": "Newton is known for its affluent neighborhoods and well-preserved historic homes, often requiring careful renovation approaches.",
+        "nearbyAreas": [
+          "Wellesley",
+          "Waltham",
+          "West Roxbury"
+        ]
+      },
+      {
+        "city": "Brookline",
+        "slug": "brookline-ma",
+        "state": "MA",
+        "content": "Summit Bath Remodel is a trusted choice for Brookline homeowners living in early 20th-century apartment buildings and single-family homes. We excel at optimizing small bathroom layouts common in these properties while maintaining architectural character. Given Brookline's snowy winters and Nor'easters, we install water-resistant flooring, efficient heating solutions, and insulated fixtures to combat the region's challenging climate.",
+        "localContext": "Brookline's dense urban fabric includes many pre-war buildings with compact but elegant bathroom spaces.",
+        "nearbyAreas": [
+          "Brighton",
+          "Jamaica Plain",
+          "Boston"
+        ]
+      },
+      {
+        "city": "Quincy",
+        "slug": "quincy-ma",
+        "state": "MA",
+        "content": "Serving Quincy, MA, Summit Bath Remodel revitalizes bathrooms in 1950s-60s Cape Cod and Colonial homes common throughout the area. We modernize outdated layouts while respecting the nostalgic appeal of these mid-century properties. Quincy's cold winters make moisture control crucial, so we use mold-resistant materials and energy-efficient fixtures to create comfortable, low-maintenance spaces perfect for New England living.",
+        "localContext": "Quincy's residential areas are dominated by post-war homes that often need functional updates without losing their cozy charm.",
+        "nearbyAreas": [
+          "Braintree",
+          "Weymouth",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Somerville",
+        "slug": "somerville-ma",
+        "state": "MA",
+        "content": "In Somerville, Summit Bath Remodel addresses the unique needs of densely packed neighborhoods filled with converted multifamily homes. We specialize in space-saving solutions for smaller bathrooms while ensuring compliance with local building codes. With cold winters and Nor'easters frequent in this area, we focus on preventing frozen pipes and water damage through smart insulation and heating upgrades.",
+        "localContext": "Somerville's mix of historic triple-deckers and modern condos presents diverse remodeling challenges.",
+        "nearbyAreas": [
+          "Cambridge",
+          "Medford",
+          "Charlestown"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-ma",
+        "state": "MA",
+        "content": "Summit Bath Remodel helps Arlington homeowners balance historic preservation with modern convenience in their bathroom renovations. Many homes here feature early 20th-century details that we carefully restore while introducing contemporary waterproofing technologies essential for Massachusetts' snowy climate. Our designs often incorporate radiant floor heating—a perfect solution for cold New England mornings.",
+        "localContext": "Arlington's residential streets showcase well-maintained Craftsman and Colonial Revival homes with classic bathroom layouts.",
+        "nearbyAreas": [
+          "Lexington",
+          "Belmont",
+          "Medford"
+        ]
+      },
+      {
+        "city": "Watertown",
+        "slug": "watertown-ma",
+        "state": "MA",
+        "content": "For Watertown residents, Summit Bath Remodel offers expertise in updating both historic and mid-century bathrooms to meet today's standards. We frequently work with the area's mix of Victorian-era homes and 1950s ranches, implementing solutions that prevent winter-related moisture issues while improving accessibility. Our team understands Watertown's strict preservation guidelines for older properties.",
+        "localContext": "Watertown features a blend of architectural styles, with many homes requiring sensitive updates to original bathrooms.",
+        "nearbyAreas": [
+          "Newton",
+          "Waltham",
+          "Brighton"
+        ]
+      },
+      {
+        "city": "Waltham",
+        "slug": "waltham-ma",
+        "state": "MA",
+        "content": "Summit Bath Remodel serves Waltham's diverse housing stock, from mill-era conversions to modern suburban homes. We tailor designs to each property type, whether creating industrial-chic lofts or traditional Colonial bathrooms. Given Waltham's cold winters, we emphasize proper ventilation systems and thermal insulation to prevent ice dam damage common in New England homes.",
+        "localContext": "Waltham's architectural diversity ranges from converted factory buildings to mid-century suburban developments.",
+        "nearbyAreas": [
+          "Newton",
+          "Lexington",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Wellesley",
+        "slug": "wellesley-ma",
+        "state": "MA",
+        "content": "In Wellesley's upscale neighborhoods, Summit Bath Remodel creates luxurious bathroom retreats that complement grand Tudor and Colonial estates. We source premium materials that withstand Massachusetts' freeze-thaw cycles while delivering spa-like comfort. Our designs often incorporate steam showers, heated towel racks, and other indulgences perfect for Wellesley's discerning homeowners.",
+        "localContext": "Wellesley is renowned for its stately homes and high-end remodeling expectations.",
+        "nearbyAreas": [
+          "Newton",
+          "Needham",
+          "Natick"
+        ]
+      },
+      {
+        "city": "Belmont",
+        "slug": "belmont-ma",
+        "state": "MA",
+        "content": "Summit Bath Remodel helps Belmont residents preserve the character of their early 20th-century homes while achieving modern bathroom functionality. We're experienced with the area's Tudor and Colonial Revival properties, often restoring original tilework alongside essential updates for water efficiency. Belmont's cold winters make proper insulation and heating critical—key considerations in all our designs.",
+        "localContext": "Belmont's tree-lined streets feature many historic homes with charming but outdated bathroom facilities.",
+        "nearbyAreas": [
+          "Cambridge",
+          "Arlington",
+          "Watertown"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "bathroom-renovation": "/images/service-bathroom-renovation.webp",
+      "walk-in-shower-conversion": "/images/service-walk-in-shower-conversion.webp",
+      "period-appropriate-tile": "/images/service-period-appropriate-tile.webp",
+      "radiant-floor-heating": "/images/service-radiant-floor-heating.webp",
+      "brownstone-bathroom": "/images/service-brownstone-bathroom.webp"
+    },
+    "servicesResponsive": {
+      "bathroom-renovation": {
+        "src": "/images/service-bathroom-renovation.webp",
+        "srcset": "/images/service-bathroom-renovation-400w.webp 400w, /images/service-bathroom-renovation-800w.webp 800w, /images/service-bathroom-renovation-1200w.webp 1200w, /images/service-bathroom-renovation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "walk-in-shower-conversion": {
+        "src": "/images/service-walk-in-shower-conversion.webp",
+        "srcset": "/images/service-walk-in-shower-conversion-400w.webp 400w, /images/service-walk-in-shower-conversion-800w.webp 800w, /images/service-walk-in-shower-conversion-1200w.webp 1200w, /images/service-walk-in-shower-conversion.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "period-appropriate-tile": {
+        "src": "/images/service-period-appropriate-tile.webp",
+        "srcset": "/images/service-period-appropriate-tile-400w.webp 400w, /images/service-period-appropriate-tile-800w.webp 800w, /images/service-period-appropriate-tile-1200w.webp 1200w, /images/service-period-appropriate-tile.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "radiant-floor-heating": {
+        "src": "/images/service-radiant-floor-heating.webp",
+        "srcset": "/images/service-radiant-floor-heating-400w.webp 400w, /images/service-radiant-floor-heating-800w.webp 800w, /images/service-radiant-floor-heating-1200w.webp 1200w, /images/service-radiant-floor-heating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brownstone-bathroom": {
+        "src": "/images/service-brownstone-bathroom.webp",
+        "srcset": "/images/service-brownstone-bathroom-400w.webp 400w, /images/service-brownstone-bathroom-800w.webp 800w, /images/service-brownstone-bathroom-1200w.webp 1200w, /images/service-brownstone-bathroom.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
